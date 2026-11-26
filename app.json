@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "name": "PopCube 方塊電台",
+  "alternate_names": ["PopCube", "PopCube Radio", "方塊電台"],
+  "bundle_id": "studio.popcube.radio",
+  "apple_app_id": "6838424091",
+  "version": "1.0",
+  "platforms": ["iOS 18.0+", "iPadOS 18.0+"],
+  "category": "Game / Puzzle / Voxel Shooter",
+  "languages": ["zh-Hant-TW", "en"],
+  "offline_capable": true,
+  "account_required": false,
+  "content": {
+    "chapters": 17,
+    "levels": 100,
+    "max_stars": 300,
+    "taiwan_theme_chapters": "6-17",
+    "daily_challenge": true,
+    "lucky_wheel": true
+  },
+  "pricing": {
+    "base_app": "Free",
+    "in_app_purchases": [
+      { "id": "studio.popcube.radio.studio_pass", "type": "non-consumable", "price_usd": 3.99 },
+      { "id": "studio.popcube.radio.starter_pack", "type": "non-consumable", "price_usd": 1.99 },
+      { "id": "studio.popcube.radio.rescue_tickets_3", "type": "consumable", "price_usd": 0.99 },
+      { "id": "studio.popcube.radio.coins_250", "type": "consumable", "price_usd": 0.99 },
+      { "id": "studio.popcube.radio.coins_750", "type": "consumable", "price_usd": 2.99 },
+      { "id": "studio.popcube.radio.coins_2000", "type": "consumable", "price_usd": 6.99 }
+    ]
+  },
+  "developer": {
+    "name": "Ho-Lam Chung",
+    "aliases": ["Eric Lam", "鍾浩霖", "@voidful"],
+    "url": "https://eric-lam.com/",
+    "app_store_developer_url": "https://apps.apple.com/us/developer/ho-lam-chung/id1896483913"
+  },
+  "urls": {
+    "homepage_zh": "https://eric-lam.com/popcube/",
+    "homepage_en": "https://eric-lam.com/popcube/en.html",
+    "privacy_policy": "https://eric-lam.com/popcube/privacy.html",
+    "app_store": "https://apps.apple.com/app/id6838424091",
+    "support_issues": "https://github.com/voidful/popcube/issues",
+    "llms_txt": "https://eric-lam.com/popcube/llms.txt",
+    "llms_full_txt": "https://eric-lam.com/popcube/llms-full.txt",
+    "sitemap": "https://eric-lam.com/popcube/sitemap.xml"
+  }
+}

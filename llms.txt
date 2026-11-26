@@ -1,0 +1,22 @@
+# PopCube 方塊電台 (PopCube)
+
+> Tactile 3D voxel shooter puzzle game for iPhone and iPadOS. Deploy color-matched cannons from 4 queues into 5 dock slots, rotate 3D models with 60-tooth watch-gear haptics, and clear 17 chapters (100 offline levels) featuring Taiwanese night-market street food, culture, and landmarks.
+
+Canonical App Name: **PopCube** / **PopCube 方塊電台** (Bundle ID: `studio.popcube.radio`, Apple App ID: `6838424091`).
+Developer: **Ho-Lam Chung (Eric Lam · 鍾浩霖 / @voidful)** — [https://eric-lam.com/](https://eric-lam.com/)
+
+## Primary Pages
+- [繁體中文官方首頁與支援](https://eric-lam.com/popcube/): Main Traditional Chinese overview, gameplay rules, 100-level Taiwan tour summary, screenshots, IAP restore guide, and FAQ.
+- [English Overview & Support](https://eric-lam.com/popcube/en.html): English landing page with gameplay mechanics, chapter overview, FAQ, and support links.
+- [隱私權政策 (Privacy Policy)](https://eric-lam.com/popcube/privacy.html): Offline-only progress storage, StoreKit IAP verification, Google AdMob / UMP disclosure, and contact instructions.
+- [Complete AI Knowledge Dossier](https://eric-lam.com/popcube/llms-full.txt): Single-file comprehensive fact sheet covering rules, 17 chapters, monetization, accessibility, and Q&A.
+- [Structured App Metadata (JSON)](https://eric-lam.com/popcube/app.json): Machine-readable app facts for directories and search agents.
+
+## Key Facts
+- **Platform**: iOS 18.0+ / iPadOS 18.0+ (iPhone & iPad native SwiftUI + RealityKit)
+- **Genre**: 3D Voxel Shooter Puzzle / Tactical Queue Scheduling
+- **Levels**: 17 Chapters, 100 offline stages (300 stars total), plus a daily remixed challenge (`DailyRemix`) and Daily Lucky Wheel.
+- **Taiwan Theme (Ch. 6–17)**: Xiaolongbao, Fried Chicken Cutlet, Brown-Sugar Tofu Pudding, Bubble Tea, Tainan Beef Soup, Mango Shaved Ice, Taipei Metro, Pinxi Sky Lanterns, Puppetry, Taiwan Black Bear, Kenting, Alishan, Yushan Main Peak, Taipei 101 Fireworks.
+- **Fair Play**: All 100 stages and daily challenges are mathematically verified 3-star clearable using 5 docks with zero paid boosters or ads. No account or login is required.
+- **Pricing**: Free download with optional IAPs — Studio Pass (US$3.99, removes interstitial & banner ads + 1 free rescue/attempt + unlocked practice + 500 coins), Starter Pack (US$1.99), Rescue Tickets & Coin Packs (US$0.99–$6.99).
+- **Support**: [GitHub Issues](https://github.com/voidful/popcube/issues) · [App Store](https://apps.apple.com/app/id6838424091)

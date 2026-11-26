@@ -1,0 +1,66 @@
+# PopCube 方塊電台 — Complete AI & Search Knowledge Dossier
+
+Last Updated: 2026-11-26
+Canonical URL (zh-Hant-TW): https://eric-lam.com/popcube/
+Canonical URL (English): https://eric-lam.com/popcube/en.html
+Privacy Policy: https://eric-lam.com/popcube/privacy.html
+App Store Listing: https://apps.apple.com/app/id6838424091
+Developer Website: https://eric-lam.com/
+Developer App Store Profile: https://apps.apple.com/us/developer/ho-lam-chung/id1896483913
+Issue Tracker & Support: https://github.com/voidful/popcube/issues
+
+---
+
+## 1. Identity & Positioning
+- **Name**: PopCube 方塊電台 (English: PopCube)
+- **Bundle Identifier**: `studio.popcube.radio`
+- **Apple App ID**: `6838424091`
+- **Author / Developer**: Ho-Lam Chung (Eric Lam · 鍾浩霖 / `@voidful`)
+- **Platform Requirements**: iPhone and iPad running iOS 18.0 / iPadOS 18.0 or later (built natively in Swift, SwiftUI, RealityKit, Metal, CoreAnimation 120Hz, CoreHaptics, and StoreKit 2).
+- **One-Line Summary**: A tactile 3D voxel shooter puzzle game where players schedule four color-coded cannon queues into five dock slots and spin 3D sculptures with 60-tooth watch-gear haptics across 17 chapters (100 offline levels) celebrating Taiwanese food, culture, and landmarks.
+
+## 2. How to Play (Exact Game Rules)
+1. **Four Queues, Five Active Docks**:
+   - Below the 3D voxel sculpture sit 4 vertical queues (`第 1 列` to `第 4 列`) of cube turrets. Only the front turret of each queue can be deployed.
+   - Tapping a front turret launches it with a 120Hz parabolic flight into an open slot among the **5 dock slots**.
+   - Each turret only fires at **exposed outer voxels matching its color** (mint `#62DEC1`, coral `#FF826E`, amethyst `#967DD3`, amber `#FFC45F`) visible from the current camera angle.
+   - Each shot removes 1 voxel on impact and decrements ammo by 1. A dock slot frees only when the mounted turret reaches 0 remaining ammo.
+2. **Outer Shell vs. Inner Core Strategy**:
+   - Models wrap inner cores inside colored outer shells. Deploying a color with blocked targets occupies a dock slot until outer blocks are cleared or the model is rotated.
+   - Dragging the model rotates both yaw and elevation with crisp **60-tooth Swiss watch gear haptics** (ticks every 6°, stronger escapement detents every 30°, and snap lock on release).
+   - **Auto-Turn Assist** (on by default, toggleable in Studio Settings) smoothly turns the sculpture to another viable firing face when all docked cannons stop shooting; manual play prompts a "Rotate to shootable face" button when stalled.
+3. **Progression Mechanics**:
+   - **Chapter 1 / Level 1 (`薄荷收音機`, 520 blocks)**: Introduces shell-peeling and simultaneous multi-cannon volleys.
+   - **Chapter 1 / Level 3 (`渡海小輪`)**: Introduces rotating to unseen faces (opening angle hides initial amethyst targets).
+   - **Level 9 (`山城陶茶壺`) onward**: Introduces **Concealed (`?`) Turrets** that reveal color and ammo only upon reaching the front row (or via Eye Reveal booster).
+   - **Level 13 (`山線纜車`) onward**: Introduces **Linked (`link`) Pair Turrets** across two queues that deploy together once both reach the front row and at least 2 dock slots are open.
+   - **Tactical Boosters**:
+     - `穿透雷射` (**Pierce Laser**): Allows 15 shots to pierce occluded outer voxels while keeping 1-ammo = 1-block fairness.
+     - `透視鏡` (**Reveal Lens**): Instantly reveals all concealed `?` turrets in the active queues.
+     - `按住快拆` (**Hold Fast-Fire**): Temporarily accelerates firing pace while held.
+     - **Queue Overview (`候補全覽`)**: Pauses gameplay to inspect every queued turret across all 4 lanes and exact target counts per color on the current face.
+
+## 3. Campaign & Content (17 Chapters · 100 Levels)
+- **Chapters 1–5 (Levels 1–30)**: Retro radios, lighthouses, harbor ferries, cameras, stargazing observatories, midnight arcades, lanterns, teapots, cable cars, and starry broadcast towers.
+- **Chapters 6–17 (Levels 31–100) — Taiwan Eat, Drink & Explore**: Iconic voxel sculptures inspired by Taiwanese daily life and landmarks including Xiaolongbao, Night Market Chicken Cutlet, Brown-Sugar Tofu Pudding (`黑糖豆花`), Bubble Tea, Mango Shaved Ice, Tainan Beef Soup, Scallion Pancakes, Brick Incense Burners, Pili-style Glove Puppets, Formosan Black Bear, Taiwan Blue Magpie, Taipei Metro, Pinxi Sky Lanterns, Guanmiao Pineapple, Kenting Beach, Alishan Forest Train, Yushan Main Peak, and Taipei 101 Fireworks.
+- **Daily Challenge (`今日挑戰`)**: Unlocks after Level 1. Remixes an unlocked level daily via deterministic color/lane permutation (`DailyRemix`), preserving 100% solvability.
+- **Daily Lucky Wheel (`每日幸運轉盤`)**: 1 free daily spin (+1 optional ad spin) awarding coins, rescue tickets, Pierce Lasers, and Reveal Lenses.
+
+## 4. Accessibility, Offline Support & Privacy
+- **100% Offline Playable**: All 100 campaign levels, daily remixes, and practice modes run locally on-device with zero login or developer servers.
+- **Solvability Guarantee**: All 100 levels are verified by deterministic route replay (`PopCubeTests`) to clear with 3 stars inside 5 docks with zero paid items or ads.
+- **Color-Blind & Motion Accessibility**: Distinct geometric symbols (`=`, `●`, `◆`, `+`) can be shown identically on both turrets and 3D voxels (`辨色圖案` / system Differentiate Without Color); Reduce Motion and VoiceOver custom rotation actions are supported.
+- **Privacy Summary**: No developer server uploads. Non-personalized Google AdMob SDK with UMP privacy controls and General Audiences (`G`) content rating. Never requests App Tracking Transparency (`ATT`) permission.
+
+## 5. Monetization & Purchase Restoration
+- **Free Download**: Every stage can be beaten free via skill, free Undo, free Retry, earned coins, and earned rescue tickets (start with 1, +1 every 3 cleared channels).
+- **In-App Purchases (Apple StoreKit)**:
+  - `studio.popcube.radio.studio_pass` — **Studio Pass** (Non-consumable, US$3.99): Permanently removes interstitial and map banner ads, grants 1 free 6th-slot rescue per attempt, unlocks Practice Mode for all unlocked levels, and awards a 500-coin welcome bonus.
+  - `studio.popcube.radio.starter_pack` — **Starter Pack** (Non-consumable, one-time, US$1.99): 600 coins + 5 rescue tickets + 3 Pierce Lasers + 3 Reveal Lenses.
+  - `studio.popcube.radio.rescue_tickets_3` — 3 Rescue Tickets (Consumable, US$0.99).
+  - `studio.popcube.radio.coins_250` / `coins_750` / `coins_2000` — Coin Packs (Consumable, US$0.99 / US$2.99 / US$6.99).
+- **Restore Purchases**: Open Studio Settings in-app -> tap "Restore Purchases" (`回復購買`) with the original Apple ID.
+
+## 6. Frequently Asked Questions
+- **Q: Is an internet connection required?** No. Single-player campaign, daily remix, and practice run completely offline. Internet is only needed for optional rewarded/ad units, App Store purchases, and link opening.
+- **Q: How do players contact support?** Submit device model, iOS version, level number, and issue description at https://github.com/voidful/popcube/issues.
